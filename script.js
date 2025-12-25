@@ -152,7 +152,7 @@ class UIManager {
     // In your UIManager class or wherever appropriate
     shareViaSites(site, text, author) {
         const promotion = 'https://skandaShanmukha.github.io/Vichaar/';
-        const message = `${text}\n${author}\n\nQuote by: ${promotion}`;
+        const message = `*${text}*\n${author}\n\nQuote by: ${promotion}`;
         let url = '';
         switch (site) {
             case 'whatsapp': {
@@ -334,4 +334,5 @@ class App {
 // Initialize app
 const app = new App();
 app.init();
+
 
