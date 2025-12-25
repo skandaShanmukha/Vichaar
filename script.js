@@ -151,7 +151,7 @@ class UIManager {
 
     // In your UIManager class or wherever appropriate
     shareViaSites(site, text, author) {
-        const promotion = 'https://koustubh1234g.github.io/Vichaar/';
+        const promotion = 'https://skandaShanmukha.github.io/Vichaar/';
         const message = `${text}\n${author}\n\nQuote by: ${promotion}`;
         let url = '';
         switch (site) {
@@ -334,3 +334,4 @@ class App {
 // Initialize app
 const app = new App();
 app.init();
+
